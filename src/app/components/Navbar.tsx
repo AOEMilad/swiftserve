@@ -17,7 +17,7 @@ const Navbar: React.FC = () => {
           <img src=".\images\Candy.png" alt="Logo" className="h-16 w-auto cursor-pointer" />
         </Link>
 
-        {/* Desktop Menu */}
+        {/* Desktop Menu text-black hover:text-gray-300 p-4 bg-white rounded-lg */}
         <ul className="hidden md:flex md:space-x-8 text-center">
           <li>
             <Link href="/" className="text-white hover:text-gray-300">
