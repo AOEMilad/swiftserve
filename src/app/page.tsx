@@ -32,7 +32,7 @@ const HomePage: React.FC = () => {
             </a>
           </li>
           <li>
-            <a href="/Survey" className="text-blue-600 hover:underline">
+            <a href="/Request" className="text-blue-600 hover:underline">
               Make a Vending Request
             </a>
           </li>
