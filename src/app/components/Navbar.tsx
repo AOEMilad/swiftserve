@@ -28,6 +28,11 @@ const Navbar: React.FC = () => {
             Locations
           </Link>
         </li>
+        <li>
+          <Link href="/Survey" className="text-white hover:text-gray-300">
+            Survey
+          </Link>
+        </li>
       </ul>
     </nav>
   );

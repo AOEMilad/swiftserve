@@ -31,6 +31,11 @@ const HomePage: React.FC = () => {
               Our Locations
             </a>
           </li>
+          <li>
+            <a href="/Survey" className="text-blue-600 hover:underline">
+              Make a Vending Request
+            </a>
+          </li>
         </ul>
       </section>
     </main>
