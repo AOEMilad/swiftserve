@@ -12,10 +12,10 @@ const Navbar: React.FC = () => {
   return (
     <nav className="bg-black p-4">
       <div className="container mx-auto flex justify-between items-center">
-        {/* Placeholder for Logo/Image */}
-        <div>
-          <img src="https://via.placeholder.com/50" alt="Logo" className="h-8 w-auto" />
-        </div>
+        {/* Clickable Logo/Image */}
+        <Link href="/">
+          <img src=".\images\Candy.png" alt="Logo" className="h-20 w-auto cursor-pointer" />
+        </Link>
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex md:space-x-8 text-center">
