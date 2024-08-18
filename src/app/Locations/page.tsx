@@ -4,7 +4,7 @@ import React from 'react';
 const LocationsPage: React.FC = () => {
   return (
     <section className="flex flex-col min-h-screen bg-gray-100 text-gray-800 py-16">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex-grow flex flex-col justify-center items-center">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex-grow flex flex-col items-center">
         <h1 className="text-3xl font-bold mb-6 text-center">Our Locations</h1>
         <p className="text-lg mb-8 text-center">
           Find us at multiple locations across the West Coast.
