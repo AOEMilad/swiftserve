@@ -14,7 +14,7 @@ const Navbar: React.FC = () => {
       <div className="container mx-auto flex justify-between items-center">
         {/* Clickable Logo/Image */}
         <Link href="/">
-          <img src=".\images\Candy.png" alt="Logo" className="h-20 w-auto cursor-pointer" />
+          <img src=".\images\Candy.png" alt="Logo" className="h-16 w-auto cursor-pointer" />
         </Link>
 
         {/* Desktop Menu */}
