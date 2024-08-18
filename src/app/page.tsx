@@ -4,7 +4,8 @@ import React from 'react';
 const HomePage: React.FC = () => {
   return (
     <main className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
-      <section className="bg-blue-600 text-white w-full py-16 text-center">
+      <section className="bg-black text-white w-full py-16 text-center">
+        <img src='.\images\SwiftServe.png'></img>
         <h1 className="text-4xl font-bold mb-4">Welcome to SwiftServe</h1>
         <p className="text-lg">Your fast and reliable vending service provider.</p>
       </section>
