@@ -10,10 +10,18 @@ const ContactPage: React.FC = () => {
           Get in touch with us via email or phone.
         </p>
         <div className="text-lg mb-8 text-center">
-          <p>Email: <a href="mailto:swiftservevendingenterprises@gmail.com" className="text-blue-500 hover:underline">swiftservevendingenterprises@gmail.com</a></p>
-          <p>Phone:</p>
-          <p className="mb-2">Anthony - <a href="tel:+17059203014" className="text-blue-500 hover:underline">705-920-3014</a></p>
-          <p>Geomar - <a href="tel:+16725156706" className="text-blue-500 hover:underline">672-515-6706</a></p>
+          <div className="bg-white p-4 rounded-lg shadow-md">
+            <p>Email: <a href="mailto:swiftservevendingenterprises@gmail.com" className="text-blue-500 hover:underline">swiftservevendingenterprises@gmail.com</a></p>
+          </div>
+          
+          <div className="flex flex-row space-x-4">
+            <div className="mt-4 bg-white p-4 rounded-lg shadow-md">
+              <p>Geomar - <a href="tel:+16725156706" className="text-blue-500 hover:underline">672-515-6706</a></p>
+            </div>
+            <div className="mt-4 bg-white p-4 rounded-lg shadow-md">
+              <p>Anthony - <a href="tel:+17059203014" className="text-blue-500 hover:underline">705-920-3014</a></p>
+            </div>
+          </div>
         </div>
       </div>
     </section>

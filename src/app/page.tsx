@@ -22,7 +22,7 @@ const HomePage: React.FC = () => {
             </a>
           </li>
           <li>
-            <a href="/ContactUs" className="text-blue-600 hover:underline">
+            <a href="/Contact-Us" className="text-blue-600 hover:underline">
               Contact Us
             </a>
           </li>

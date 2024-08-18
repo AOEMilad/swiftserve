@@ -13,23 +13,33 @@ const LocationsPage: React.FC = () => {
           <ul className="space-y-4">
             <li className="bg-white p-4 rounded-lg shadow-md">
               <h2 className="text-xl font-semibold mb-2">Ford</h2>
-              <p className="text-gray-600">123 Ford St, Los Angeles, CA 90001</p>
+              <p className="text-gray-600">20370 Lougheed Hwy.</p>
+              <p className="text-gray-600">Maple Ridge, BC</p>
+              <p className="text-gray-600">V2X 2P8</p>
             </li>
             <li className="bg-white p-4 rounded-lg shadow-md">
               <h2 className="text-xl font-semibold mb-2">Kia</h2>
-              <p className="text-gray-600">456 Kia Ave, Seattle, WA 98101</p>
+              <p className="text-gray-600">19950 Lougheed Hwy. Unit 100</p>
+              <p className="text-gray-600">Pitt Meadows, BC</p>
+              <p className="text-gray-600">V3Y 2S9</p>
             </li>
             <li className="bg-white p-4 rounded-lg shadow-md">
               <h2 className="text-xl font-semibold mb-2">Mazda</h2>
-              <p className="text-gray-600">789 Mazda Blvd, San Francisco, CA 94102</p>
+              <p className="text-gray-600">20000 Lougheed Hwy.</p>
+              <p className="text-gray-600">Pitt Meadows, BC</p>
+              <p className="text-gray-600">V3Y 2S9</p>
             </li>
             <li className="bg-white p-4 rounded-lg shadow-md">
               <h2 className="text-xl font-semibold mb-2">Nissan</h2>
-              <p className="text-gray-600">101 Nissan Rd, Portland, OR 97201</p>
+              <p className="text-gray-600">19625 Lougheed Hwy.</p>
+              <p className="text-gray-600">Pitt Meadows, BC</p>
+              <p className="text-gray-600">V3Y 1Z2</p>
             </li>
             <li className="bg-white p-4 rounded-lg shadow-md">
               <h2 className="text-xl font-semibold mb-2">Toyota</h2>
-              <p className="text-gray-600">202 Toyota St, San Diego, CA 92101</p>
+              <p className="text-gray-600">19950 Lougheed Hwy.</p>
+              <p className="text-gray-600">Pitt Meadows, BC</p>
+              <p className="text-gray-600">V3Y 2S9</p>
             </li>
           </ul>
         </div>
