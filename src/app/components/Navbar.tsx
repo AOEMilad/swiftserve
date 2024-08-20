@@ -91,7 +91,7 @@ const Navbar: React.FC = () => {
           </Link>
         </li>
         <li>
-          <Link href="/Request" className="text-white hover:text-gray-300">
+          <Link href="/Request" className="brightness-150 dark:brightness-100 group hover:shadow-lg hover:shadow-yellow-700/60 transition ease-in-out hover:scale-105 p-3 rounded-xl bg-gradient-to-br from-yellow-800 via-yellow-600 to-yellow-800 hover:from-yellow-700 hover:via-yellow-800 hover:to-yellow-600">
             Request
           </Link>
         </li>
