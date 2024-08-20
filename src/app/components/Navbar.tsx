@@ -18,7 +18,7 @@ const Navbar: React.FC = () => {
         </Link>
 
         {/* Desktop Menu */}
-        <ul className="flex space-x-8 text-center">
+        <ul className="hidden md:flex space-x-8">
           <li>
             <Link href="/" className="text-white hover:text-gray-300">
               Home
