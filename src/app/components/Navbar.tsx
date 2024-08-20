@@ -11,14 +11,14 @@ const Navbar: React.FC = () => {
 
   return (
     <nav className="bg-black p-4">
-      <div className="container mx-auto flex justify-between items-center">
+      <div className="container mx-auto flex items-center">
         {/* Clickable Logo/Image */}
         <Link href="/">
-          <img src=".\images\Candy.png" alt="Logo" className="h-16 w-auto cursor-pointer" />
+          <img src=".\images\Candy.png" alt="Logo" className="h-16 w-auto cursor-pointer mr-8" />
         </Link>
 
-        {/* Desktop Menu text-black hover:text-gray-300 p-4 bg-white rounded-lg */}
-        <ul className="hidden md:flex md:space-x-8 text-center">
+        {/* Desktop Menu */}
+        <ul className="flex space-x-8 text-center">
           <li>
             <Link href="/" className="text-white hover:text-gray-300">
               Home
@@ -40,7 +40,7 @@ const Navbar: React.FC = () => {
             </Link>
           </li>
           <li>
-            <Link href="/Request" className="text-white hover:text-gray-300">
+            <Link href="/Request" className="brightness-150 dark:brightness-100 group hover:shadow-lg hover:shadow-yellow-700/60 transition ease-in-out hover:scale-105 p-3 rounded-xl bg-gradient-to-br from-yellow-800 via-yellow-600 to-yellow-800 hover:from-yellow-700 hover:via-yellow-800 hover:to-yellow-600">
               Request
             </Link>
           </li>
@@ -49,7 +49,7 @@ const Navbar: React.FC = () => {
         {/* Mobile Menu Toggle Button */}
         <button
           onClick={toggleMenu}
-          className="md:hidden text-white focus:outline-none"
+          className="md:hidden text-white focus:outline-none ml-auto"
         >
           <svg
             className="h-6 w-6"
